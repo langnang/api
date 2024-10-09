@@ -1,0 +1,254 @@
+# GitHub REST API
+
+> https://docs.github.com/en/rest
+
+- Actions
+- Activity
+- Apps
+- Billing
+- Branches
+  - Branches
+    - List branches
+    - Get a branch
+    - Rename a branch
+    - Sync a fork branch with the upstream repository
+    - Merge a branch
+  - Protected branches
+    - Get branch protection
+    - Update branch protection
+    - Delete branch protection
+    - Get admin branch protection
+    - Set admin branch protection
+    - Delete admin branch protection
+    - Get pull request review protection
+    - Update pull request review protection
+    - Delete pull request review protection
+    - Get commit signature protection
+    - Create commit signature protection
+    - Delete commit signature protection
+    - Get status checks protection
+    - Update status check protection
+    - Remove status check protection
+    - Get all status check contexts
+    - Add status check contexts
+    - Set status check contexts
+    - Remove status check contexts
+    - Get access restrictions
+    - Delete access restrictions
+    - Get apps with access to the protected branch
+    - Add app access restrictions
+    - Set app access restrictions
+    - Remove app access restrictions
+    - Get teams with access to the protected branch
+    - Add team access restrictions
+    - Set team access restrictions
+    - Remove team access restrictions
+    - Get users with access to the protected branch
+    - Add user access restrictions
+    - Set user access restrictions
+    - Remove user access restrictions
+- Checks
+- Classroom
+- Code scanning
+- Code security settings
+- Codes of conduct
+- Codespaces
+- Collaborators
+- Commits
+  - Commits
+    - List commits
+    - List branches for HEAD commit
+    - List pull requests associated with a commit
+    - Get a commit
+    - Compare two commits
+  - Commit comments
+    - About commit comments
+    - List commit comments for a repository
+    - Get a commit comment
+    - Update a commit comment
+    - Delete a commit comment
+    - List commit comments
+    - Create a commit comment
+  - Commit statuses
+    - About commit statuses
+    - Get the combined status for a specific reference
+    - List commit statuses for a reference
+    - Create a commit status
+- Copilot
+- Dependabot
+- Dependency graph
+- Deploy keys
+- Deployments
+- Emojis
+- Gists
+- Git database
+- Gitignore
+- Interactions
+- Issues
+  - Issues
+    - List issues assigned to the authenticated user
+    - List organization issues assigned to the authenticated user
+    - List repository issues
+    - Create an issue
+    - Get an issue
+    - Update an issue
+    - Lock an issue
+    - Unlock an issue
+    - List user account issues assigned to the authenticated user
+  - Assignees
+    - About issue and pull request assignees
+    - List assignees
+    - Check if a user can be assigned
+    - Add assignees to an issue
+    - Remove assignees from an issue
+    - Check if a user can be assigned to a issue
+  - Comments
+    - About issue and pull request comments
+    - List issue comments for a repository
+    - Get an issue comment
+    - Update an issue comment
+    - Delete an issue comment
+    - List issue comments
+    - Create an issue comment
+  - Events
+    - About events
+    - List issue events for a repository
+    - Get an issue event
+    - List issue events
+  - Labels
+    - About labels
+    - List labels for an issue
+    - Add labels to an issue
+    - Set labels for an issue
+    - Remove all labels from an issue
+    - Remove a label from an issue
+    - List labels for a repository
+    - Create a label
+    - Get a label
+    - Update a label
+    - Delete a label
+    - List labels for issues in a milestone
+  - Milestones
+    - List milestones
+    - Create a milestone
+    - Get a milestone
+    - Update a milestone
+    - Delete a milestone
+  - Timeline
+    - About timeline events
+    - List timeline events for an issue
+- Licenses
+- Markdown
+- Meta
+- Metrics
+- Migrations
+- Organizations
+- Packages
+- Pages
+  - Pages
+    - Get a GitHub Pages site
+    - Create a GitHub Pages site
+    - Update information about a GitHub Pages site
+    - Delete a GitHub Pages site
+    - List GitHub Pages builds
+    - Request a GitHub Pages build
+    - Get latest Pages build
+    - Get GitHub Pages build
+    - Create a GitHub Pages deployment
+    - Get the status of a GitHub Pages deployment
+    - Cancel a GitHub Pages deployment
+    - Get a DNS health check for GitHub Pages
+- Projects (classic)
+- Pull requests
+- Rate limit
+- Reactions
+- Releases
+- Repositories
+  - Autolinks
+    - About repository autolinks
+    - Get all autolinks of a repository
+    - Create an autolink reference for a repository
+    - Get an autolink reference of a repository
+    - Delete an autolink reference from a repository
+  - Contents
+    - Get repository content
+    - Create or update file contents
+    - Delete a file
+    - Get a repository README
+    - Get a repository README for a directory
+    - Download a repository archive (tar)
+    - Download a repository archive (zip)
+  - Custom properties
+    - About custom properties
+    - Get all custom property values for a repository
+    - Create or update custom property values for a repository
+  - Forks
+    - List forks
+    - Create a fork
+  - Repositories
+    - List organization repositories
+    - Create an organization repository
+    - Get a repository
+    - Update a repository
+    - Delete a repository
+    - List repository activities
+    - Create an attestation
+    - List attestations
+    - Check if automated security fixes are enabled for a repository
+    - Enable automated security fixes
+    - Disable automated security fixes
+    - List CODEOWNERS errors
+    - List repository contributors
+    - Create a repository dispatch event
+    - List repository languages
+    - Check if private vulnerability reporting is enabled for a repository
+    - Enable private vulnerability reporting for a repository
+    - Disable private vulnerability reporting for a repository
+    - List repository tags
+    - List repository teams
+    - Get all repository topics
+    - Replace all repository topics
+    - Transfer a repository
+    - Check if vulnerability alerts are enabled for a repository
+    - Enable vulnerability alerts
+    - Disable vulnerability alerts
+    - Create a repository using a template
+    - List public repositories
+    - List repositories for the authenticated user
+    - Create a repository for the authenticated user
+    - List repositories for a user
+  - Rule suites
+    - List repository rule suites
+    - Get a repository rule suite
+  - Rules
+    - Get rules for a branch
+    - Get all repository rulesets
+    - Create a repository ruleset
+    - Get a repository ruleset
+    - Update a repository ruleset
+    - Delete a repository ruleset
+  - Tags
+    - Deprecated - List tag protection states for a repository
+    - Deprecated - Create a tag protection state for a repository
+    - Deprecated - Delete a tag protection state for a repository
+  - Webhooks
+    - About repository webhooks
+    - List repository webhooks
+    - Create a repository webhook
+    - Get a repository webhook
+    - Update a repository webhook
+    - Delete a repository webhook
+    - Get a webhook configuration for a repository
+    - Update a webhook configuration for a repository
+    - List deliveries for a repository webhook
+    - Get a delivery for a repository webhook
+    - Redeliver a delivery for a repository webhook
+    - Ping a repository webhook
+    - Test the push repository webhook
+- Search
+- Secret scanning
+- Security advisories
+- Teams
+- Users
+
+## Reference

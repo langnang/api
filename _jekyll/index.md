@@ -1,5 +1,7 @@
 # PublicAPIs
 
+- [GitHub REST API](./github/)
+
 ## References
 
 <!-- 
